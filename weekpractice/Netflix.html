@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .par-image{
+            width: 100%;
+            height: 600px;
+            position: relative;
+        }
+        .par-image img{
+            height: 100%;
+            width: 100%; 
+           visibility:10%;
+            
+        }
+        .heading{
+            color: red;
+            position: absolute;
+            font-size: 1em;
+            top: 2px;
+            left: 20px;
+            display: inline-block;
+        }
+        .english{
+            position: absolute;
+            background-color: black;
+            color:white;
+            font-size: 1em;
+            border: 2px solid black;
+            top: 30px;
+            right:150px;
+            padding-left: 20px;
+            padding-right: 20px; 
+        }
+        .sign{
+            position: absolute;
+            background-color: red;
+            color:white;
+            font-size: 1em;
+            border: 2px solid black;
+            top: 30px;
+            right:50px; 
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+        .title{
+             
+            font-size: 3em;
+            text-align: center;
+            color: white;
+             
+        }
+        .sub{
+             
+           
+            text-align: center;
+            color: white;
+             
+             
+            color: white;
+        }
+        .login{
+             
+            height: 40px;
+            width: 80%;
+            background-color: aqua;
+            margin: auto;
+            display: flex;
+        }
+        .main{
+            position: absolute;
+            top: 20%;
+            left: 35%;
+
+            
+        }
+        .login1{
+            height: 40px;
+            width: 70%;
+            background-color: white;
+            /* display: inline-block; */
+        }
+        .search{
+            height: 40px;
+            width: 31%;
+            background-color: red;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+            /* display: inline-block; */
+        }
+        input{
+            height: 40px;
+            width: 100%;
+            box-sizing: border-box;
+            
+            padding-left: 10px;
+        }
+        .parent1{
+            margin-top: 20px;
+       height: 400px;
+            width: 100%;
+        background-color: black;
+         display: flex;
+         padding-left: 50px;
+         padding-right: 50px;
+         box-sizing: border-box;
+        }
+        .text{
+          
+            width: 40%;
+            height: 100%;
+           
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            
+            margin-right:20px;
+            box-sizing: border-box;
+            
+        }
+        .image{
+             height: 100%; 
+            width: 50%;
+            background-color: aqua;
+              
+        }
+        .image img{
+            
+
+            width: 100%;
+            height: 100%;
+        }
+        .parent2{
+            background-color: aqua;
+            padding: 30px;
+        }
+        .a{
+            margin-top: 20px;
+            height: 400px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+         padding-left: 50px;
+         padding-right: 50px;
+         box-sizing: border-box;
+
+        }
+        .a1 img{
+            width: 100%;
+            height: 100%;
+        }
+        .a1{
+            box-sizing: border-box;
+            height: 100%;
+            width: 50%;
+            margin-right: 20px;
+
+        }
+        .a2{
+            height: 100%;
+            width: 50%;
+            color: white;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 150px;
+            font-size: 2em;
+
+        }
+        .b{
+            height: 400px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            margin-top: 20px;
+        }
+        .b1{
+            width: 50%;
+            height: 100%;
+            font-size: 2em;
+            box-sizing: border-box;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+            margin-right: 20px;
+        }
+        .b2 img{
+            width:100%;
+            height: 100%;
+        }
+        .b2{
+            height: 100%;
+            width: 50%;
+            box-sizing: border-box;
+
+        }
+        .c{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            background-color: black;
+            margin-top: 20px;
+             
+        }
+        .c1 img{
+            height: 100%;
+            width: 100%;
+        }
+        .c1{
+            height: 100%;
+            width: 50%;
+            box-sizing: border-box;
+            margin-right: 20px;
+            background-color: aliceblue;
+            
+
+        }
+        .c2{
+            height: 100%;
+            width: 50%;
+            
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            box-sizing: border-box;
+            margin-top: 20px;
+           
+        }
+        .d{
+            width: 100%;
+            height: 200px;
+            background-color: black
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        .d1{
+            width: 100%;
+           color: white;
+            /* height: 20%; */
+        }
+        .last{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            margin: auto;
+            display: flex;
+            margin-top: 50px;
+        }
+        .login2{
+            height: 40px;
+            width: 40%;
+            background-color: white;
+            margin-right: 10px;  
+            box-sizing: border-box; 
+            color: white;
+        }
+        .search1{
+            height: 40px;
+            width:20%;
+            background-color: red;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+            color: white;
+        }
+        .login3{
+            margin-top: 50px;
+            width: 80%;
+            height: 40px;
+            display: flex;
+            margin-left: 250px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="par-image"><img src="https://www.pcworld.com/wp-content/uploads/2024/04/Netflix-Hintergrund.jpg?quality=50&strip=all"></div>
+        <div class="heading"><h1>NETFLIX</h1></div>
+        <div class="english">
+            <form>
+                <label for="id">English</label>
+                <select></select>
+            </form>
+        </div>
+        <div class="sign">Sign in</div>
+        <div class="main"> 
+        <div class="title"><h4>Unlimited movies,<br>TV shows and more.</h4></div>
+        <div class="sub"><p> Starts at ₹ 149. Cancel anytime.<br>Ready to watch? Enter your email to create or restart your membership.</p></div>
+        <div class="login">
+            <div class="login1"><input type="text" placeholder="Email address"></div>
+            <div class="search">Get Started</div>
+        </div>
+    </div>
+</div>
+    <div class="parent1">
+     
+        <div class="text"><h3> Enjoy on your TV</h3><br><p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p></div>
+        <div class="image"><img src="https://images.unsplash.com/photo-1643208589889-0735ad7218f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG5ldGZsaXh8ZW58MHwwfDB8fHww&w=1000&q=80" ></div>
+       
+</div>
+<div class="a">
+    <div class="a1"><img src="https://cdn.digitbin.com/wp-content/uploads/Netflix-Downloader-Offline-Android-scaled.jpg"></div>
+    <div class="a2"><h3> Download your shows to watch offline</h3><p> 
+        Save your favourites easily and always have something to watch.</p></div>
+    </div>
+<div class="b">
+    <div class="b1"><h3>Watch everywhere</h3><p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p></div>
+    <div class="b2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2EFwz9GzjUAGf1VHfwTdSm-IXf5EmfJ2hzrHwqrAkA&s"></div>
+</div>
+<div class="c">
+    <div class="c1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFKAhtXA26vl7e-csPYkj6N0J8g3C0S4u3cPL_CeH0tg&s"></div>
+    <div class="c2"><h3>Create profiles for kids</h3><p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p></div>
+</div>
+<div class="d">
+    <h1>Frequently Asked Questions</h1>
+    <div class="d1">
+        <details>
+            <summary>What is Netflix</summary>
+            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+        </details>        
+    </div>
+    <div class="d1">
+        <details>
+            <summary>What is Netflix</summary>
+            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+        </details>        
+    </div>
+    <div class="d1">
+        <details>
+            <summary>How do i cancel?</summary>
+            <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+        </details>        
+    </div>
+    <div class="d1">
+        <details>
+            <summary>How much does Netflix Cost?</summary>
+            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+        </details>        
+    </div>
+   
+    <div class="d1">
+        <details>
+            <summary>What Can I watch on Netflix?</summary>
+            <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+        </details>        
+    </div>
+     
+    <div class="last">
+        <div class="login3"> 
+        <div class="login2"><input type="text" placeholder="Email address"></div>
+        <div class="search1">Get Started</div>
+    </div>
+    </div>
+
+
+</div>
+</body>
+</html>
