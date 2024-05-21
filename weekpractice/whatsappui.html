@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+ <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+ <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+ <style>
+    
+    .main{
+        
+        margin-left: 500px;
+        margin-top: 100px;
+        border: 7px solid;
+        height: 683px;
+        width: 385px;
+        border-radius: 54px; 
+             
+
+            
+    }
+    .head{
+        border: 1px solid rgba(237, 238, 236, 0.5);
+        height: 94px;
+        width: 385px;
+        background-color:green;
+        border-top-left-radius: 50px ;
+        border-top-right-radius: 50px ;
+    }
+    
+    .audio{
+        font-size: 21px;
+            position: relative;
+            left: 230px;
+             
+            color: white;
+            top: -70px;
+    }
+    .video{
+        font-size: 20px;
+            position: relative;
+            left: 220px;
+             
+            color: white;
+            top: -70px;
+        }
+        .more{
+            font-size:20px;
+            position: relative;
+            left: 240px;
+            top: -70px; 
+            color: white;           
+        }
+    
+    .net{
+        position: relative;
+            font-size: 16px;
+            bottom: 160px;
+            left: -70px;
+            top: -130px;
+    }
+    .dynamic{
+            /* border: 3px solid; */
+            position: relative;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px ;
+            height: 34px;
+            width: 125px;
+            top: -170px;
+            left: 126px ;
+            background-color: black;
+            color: aqua;
+            text-align: center;
+            font-size: 100px;
+            
+            
+            
+        }
+        
+        .time{
+            position: relative;
+            right: 210px;
+            top: -130px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .wifi{
+            position: relative;
+            left:-60px;
+            top: -130px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .battery{
+            position: relative;
+             right:-330px; 
+            top: -150px;
+            font-size: 16px;
+             
+        }
+        .arrow{
+            position: relative;
+            right: 110px;
+            top: -80px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        img{
+            border-radius: 40px;
+            height: 50px;
+            width: 50px;
+            position: relative;
+            bottom: -30px;
+            left: 50px;
+            top: -60px;
+        }
+        .insta{
+            position: relative;
+            right: 210px;
+            top: -130px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .name{
+            position: relative;
+            top: -80px;
+           right: 30px;
+        }
+        .lastseen{
+            position: relative;
+            top: -60px;
+            right: 80px;
+
+        }
+        
+        .cam{
+            position: relative;
+             
+            color: white;
+            font-size:80px;
+            top: -260px;
+            left: 180px;
+            
+        }
+        .msg{
+            margin-left: 500px;
+            border: 1px solid white ;
+            position: relative;
+            height: 490px;
+            width: 385px;
+            background-image: url("./wa2.jpg");
+            overflow-y: scroll;
+            scrollbar-width: none;
+            top: -590px; 
+            background-color: red;
+            left: 7px;
+            background-image: url(../images/whats.jpg);
+             
+
+        }
+        .day1{
+            position: sticky;
+            padding-right: -11px;
+            background-color: rgba(237, 238, 236, 0.963);
+            border: 2px solid rgba(237, 238, 236, 0.963);
+            border-radius: 20px;
+            width: 55px;
+            left: 163px;
+            line-height: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5px;
+            padding-left: 9px;
+            top: 0px;
+        }
+        h1{
+            position: sticky;
+             
+        }
+        .day2{
+                border: 1px solid;
+                height:16px;
+                width: 55px;
+                font-size: 10px;
+                border-radius: 20px;
+                margin-left: 165px; 
+                font-weight: lighter;
+                padding-left:6px;
+                /* margin-left: 3px; */
+                line-height:10px;
+                background-color: rgba(237, 238, 236, 0.963);
+                border: 2px solid rgba(237, 238, 236, 0.963);
+                font-family: Arial, Helvetica, sans-serif;   
+                position: sticky;
+                top:0px;
+                z-index: 1;
+        }
+        h1{
+            position: sticky;
+            /* top: 1px;
+            font-size: 11px;
+            padding-bottom:-2px; */
+        }
+        .day3{
+            border: 1px solid;
+                height:16px;
+                width: 55px;
+                font-size: 12px;
+                border-radius: 9px;
+                background-color: rgba(237, 238, 236, 0.963);
+                border: 2px solid rgba(237, 238, 236, 0.963);
+                font-family: Arial, Helvetica, sans-serif;   
+                position: sticky;
+                margin-left: 170px; 
+                top:0px;
+
+        }
+        h1{
+            position: sticky;
+            /* top: 1px;
+            font-size: 11px;
+            padding-bottom:-2px; */
+        }
+        .day4{
+            position: sticky;
+            padding-right: -11px;
+            background-color: rgba(237, 238, 236, 0.963);
+            border: 2px solid rgba(237, 238, 236, 0.963);
+            border-radius: 20px;
+            width: 55px;
+            left: 163px;
+            line-height: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5px;
+            padding-left: 9px;
+            top: 0px;
+        }
+        h1{
+            position: sticky;
+        }
+        .day5{
+            position: sticky;
+            padding-right: -11px;
+            background-color: rgba(237, 238, 236, 0.963);
+            border: 2px solid rgba(237, 238, 236, 0.963);
+            border-radius: 20px;
+            width: 55px;
+            left: 163px;
+            line-height: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5px;
+            padding-left: 9px;
+            top: 0px;
+        }
+        h1{
+            position: sticky;
+        }
+
+        .sender{
+            border: 1px solid  white;
+            border-radius: 6px;
+            padding-top: 6px;
+            padding-bottom: 3pxc;
+            padding-left: 5px;
+            height: 29px;
+            width: 110px;
+            position: relative;
+            left: 10px;
+            background-color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        
+        }
+        .timer1{
+            font-size: 7px;
+            margin-left: 73px;
+            margin-top: 2px;
+            color: gray;
+        }
+        .receiver{
+            border: 1px solid  #DCF8C6;
+            border-radius: 10px;
+            padding-top: 6px;
+            padding-bottom: 3pxc;
+            padding-left: 5px;
+            height: 29px;
+            width: 110px;
+            position: relative;
+            right: -257px;
+            background-color: #DCF8C6;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+        .timer2{
+            font-size: 7px;
+            margin-left: 73px;
+        }
+        .bottom{
+            margin-left: 500px;
+            border: 1px solid rgba(237, 238, 236, 0.5);
+            background-color: rgba(237, 238, 236, 0.5);
+            height: 97px;
+            width: 385px;
+            left:5px;
+            border-bottom-left-radius: 50px ;
+            border-bottom-right-radius: 50px;
+            position: relative;
+            top: -596px;
+            /* background-color: black; */
+        }  
+        .rupee{
+            
+            padding:5px;
+            position:relative;
+            left:230px;
+            top:-33px;
+            font-size:large;
+            color:black;
+            
+        }
+        .emoji{
+            /* right: 0px; */
+         
+            font-size: 20px;
+            position: relative;
+            
+            color: blue;
+            top: 1px;
+            top: -29px;
+            
+        }               
+        .type{
+            border: 2px solid;
+            position: relative;
+            top: 0px;
+            height: 30px;
+            width: 60%;
+            border-radius: 50px;
+            left: 70px;
+
+         } 
+        .camera{
+             
+            width:100px;
+            height:50px; 
+            position:relative;
+            left:210px;
+            top:-35px;
+            font-size:small;    
+        } 
+        .microphone{
+            border: 1px solid red;
+            border-radius: 65%;
+            /* width:30px;
+            height:30px; */
+            padding:5px;
+            position:relative;
+            left:250px;
+            top:-30px;
+            font-size:x-large;
+            color:white;
+            background-color:green;
+
+        }
+        .bottom1{
+            border: 1px solid;
+            padding: 10px;
+            height: 20px;
+            
+            border-bottom-left-radius: 50px ;
+            border-bottom-right-radius: 50px;
+            background-color: black;
+        }
+
+        
+
+
+
+
+
+ </style>
+         
+</head>
+<body>
+    <div>
+        <div class="main">
+            <div class="head"></div>
+            <img src="../images/ENG.png" >
+            <span class="video"><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+            <Span class="audio"><i class="fa fa-fw fa-phone" aria-hidden="true"></i></Span>
+            <span class="more"> <i style="font-size:24px" class="fa">&#xf142;</i></span>
+            <span class="arrow"><i class="fa fa-fw fa-arrow-left" aria-hidden="true"></i></span>
+            <span class="name"><B>Rajesh</B></span>
+            <span class="lastseen">online</span>
+            <!-- <span class="icon3"><i class="fa fa-chevron-left" aria-hidden="true"></i></span> -->
+            <span class="time">12:00AM</span>
+            <span class="insta"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i></span>
+            
+            <span class="net"><i class="fa fa-fw fa-signal" aria-hidden="true"></i></span>
+            <span class="wifi"><i class="fa fa-fw fa-wifi" aria-hidden="true"></i></span>
+            <span class="battery"><i class="fa fa-fw fa-battery-quarter" aria-hidden="true"></i></span>
+             
+            <div class="dynamic"></div>
+            <span class="cam">.</span>
+        </div>
+        <div class="msg">
+            <div class="day1"><h1>SUNDAY</h1></div>
+            <div class="sender">Hi..
+            <div class="timer1">7:02am</div>
+         </div>
+         <div class="receiver">Hello
+        <div class="timer2">7:10am</div>
+        </div>
+
+    <div class="sender">How are you?
+        <div class="timer1">7:30am</div>
+    </div>
+    <div class="receiver">I am fine
+        <div class="timer2">8:00am</div>
+    </div> 
+    <div class="sender">Can you share your resume..
+        <Div class="timer1">8;10am</Div>
+    </div>
+    <div class="receiver">Ok i'll share
+        <div class="timer2">8:30am
+        </div>
+         
+        </div>
+        
+        <div class="day2">TUESDAY</h1></div>
+        <div class="sender">Hi..
+        <div class="timer1">7:02am</div>
+         </div>
+         <div class="receiver">Hello
+        <div class="timer2">7:10am</div>
+        </div>
+
+    <div class="sender">How are you?
+        <div class="timer1">7:30am</div>
+    </div>
+    <div class="receiver">I am fine
+        <div class="timer2">8:00am</div>
+    </div> 
+    <div class="sender">Can you share your resume..
+        <Div class="timer1">8;10am</Div>
+    </div>
+    <div class="receiver">Ok i'll share
+        <div class="timer2">8:30am
+        </div>
+        <!-- <div class="sender">ok
+            <div class="timer1">8:40am</div> -->
+        </div>
+        <div class="day3">TODAY</h1></div>
+        <div class="sender">Hi..
+        <div class="timer1">7:02am</div>
+         </div>
+         <div class="receiver">Hello
+        <div class="timer2">7:10am</div>
+        </div>
+
+    <div class="sender">How are you?
+        <div class="timer1">7:30am</div>
+    </div>
+    <div class="receiver">I am fine
+        <div class="timer2">8:00am</div>
+        <!-- <span><i class='fas fa-check-double' style="font-size: 8px; position: relative; top: -17px; left: 100px; color: blue;"></i></span> -->
+        <span><i class="fa-duotone fa-check-double"></i></i></span>
+    </div> 
+    <div class="sender">Can you share your resume..
+        <Div class="timer1">8;10am</Div>
+    </div>
+    <div class="receiver">Ok i'll share
+        <div class="timer2">8:30am
+        </div>
+        <!-- <div class="sender">ok
+            <div class="timer1">8:40am</div> -->
+        </div>
+        <div class="day4"><h1>SUNDAY</h1></div>
+            <div class="sender">Hi..
+            <div class="timer1">7:02am</div>
+         </div>
+         <div class="receiver">Hello
+        <div class="timer2">7:10am</div>
+        </div>
+
+    <div class="sender">How are you?
+        <div class="timer1">7:30am</div>
+    </div>
+    <div class="receiver">I am fine
+        <div class="timer2">8:00am</div>
+    </div> 
+    <div class="sender">Can you share your resume..
+        <Div class="timer1">8;10am</Div>
+    </div>
+    <div class="receiver">Ok i'll share
+        <div class="timer2">8:30am
+        </div>
+        <!-- <div class="sender">ok
+            <div class="timer1">8:40am</div> -->
+        </div>
+        <div class="day5"><h1>SUNDAY</h1></div>
+            <div class="sender">Hi..
+            <div class="timer1">7:02am</div>
+         </div>
+         <div class="receiver">Hello
+        <div class="timer2">7:10am</div>
+        </div>
+
+    <div class="sender">How are you?
+        <div class="timer1">7:30am</div>
+    </div>
+    <div class="receiver">I am fine
+        <div class="timer2">8:00am</div>
+    </div> 
+    <div class="sender">Can you share your resume..
+        <Div class="timer1">8;10am</Div>
+    </div>
+    <div class="receiver">Ok i'll share
+        <div class="timer2">8:30am
+        </div>
+        <!-- <div class="sender">ok
+            <div class="timer1">8:40am</div> -->
+        </div>
+    </div>
+    <div class="bottom">
+    <div class="type" ></div> 
+    <span class="rupee"><i class="fa fa-inr" aria-hidden="true"></i></span>
+    <span class="emoji">&#129299;</span>
+     <!-- <span class="file"><i class="material-icons">&#xe25c;</i></span> -->
+     <span class="camera"><i class="fa fa-camera" aria-hidden="true"></i></span>
+     <span class="microphone"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+     
+     <div class="bottom1"></div>
+
+    </div>
+
+
+    </div>
+</body>
+</html>
