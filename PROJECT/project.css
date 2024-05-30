@@ -436,12 +436,7 @@ input {
         top: 30px;
 
     }
-    .menu{
-        
-        right: 60px;
-        top: 80px;
-       
-    }
+    
 
     .body {
         padding: 50px 0;
@@ -635,6 +630,15 @@ input {
         
         
     }
+    
+    .menu p{
+        display: none;
+    }
+    
+        
+    .plus:hover + .menu .p {
+        display: block;
+    }
    
 }
 
@@ -704,8 +708,14 @@ input {
     #lorem{
         font-size: 15px;
     }
+   
     .menu p{
-        font-size: 12px;
+        display: none;
+    }
+    
+        
+    .plus:hover + .menu {
+        display: block;
     }
 
  }
@@ -730,6 +740,7 @@ input {
     .red{
         font-size: 1.6em;
     }
+    
     
    
     
