@@ -7,16 +7,14 @@
   </head>
   <body>
     <script>
-      var a = prompt("Enter a string :");
-      var arr = a.split(" ");
-      str = "";
-      console.log(arr);
-      for (i = 0; i < arr.length; i++) {
-        if (arr[i].length > str.length) {
-          str = arr[i];
+      function even(a) {
+        if (a % 2 == 0) {
+          return "even";
+        } else {
+          return "odd";
         }
       }
-      console.log(str);
+      console.log(even(90));
     </script>
   </body>
 </html>
